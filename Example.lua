@@ -1,11 +1,11 @@
 -- New example script written by wally
 -- You can suggest changes with a pull request or something
 
-local repo = 'https://raw.githubusercontent.com/mstudio45/LinoriaLib/main/'
+local repo = 'https://raw.githubusercontent.com/ago106/Linoria/main/'
 
 local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
-local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
-local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
+local ThemeManager = loadstring(game:HttpGet(repo .. 'ThemeManager.lua'))()
+local SaveManager = loadstring(game:HttpGet(repo .. 'SaveManager.lua'))()
 local Options = Library.Options
 local Toggles = Library.Toggles
 
